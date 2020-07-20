@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   # ================================
 
   def homepage
-    render({ :template => "game_templates/rules.html.erb"})
+    render({ :template => "game_templates/rules_html.erb"})
   end
   def play_paper
     @comp_move = ["rock","paper","scissors"].sample
